@@ -1,0 +1,48 @@
+
+#cabecalho{
+    background-color: #9e2721;
+}
+#barraNavegacao a{
+    color: whitesmoke;
+    font-size: 16pt;
+}
+.titulo{
+    color: rgb(3, 165, 206);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.473) 0.1rem 0.1rem 0.2rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    background-color: rgb(221, 218, 255);
+}
+.card{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.card-body{
+    background-color: #cf423a;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: whitesmoke;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.375);
+    height: 150px;
+}
+.card-body p{
+    visibility: hidden;
+}
+.card img{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.375);
+    height: 420px;    
+}
+.card:hover .card-body{
+    height: 500px;
+}
+.card:hover .card-body p{
+    visibility: visible;
+}
+
+#rodape{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
